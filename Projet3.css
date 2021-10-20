@@ -1,0 +1,10 @@
+header, form, .Reserve{
+    display: flex;
+    justify-content: center;
+}
+header img {
+    width: 50%;
+}
+.title{
+    font-family: 'Shrikhand', cursive;
+}
