@@ -1,0 +1,66 @@
+@media all and (min-width: 992px) {
+
+header img{
+    width: 30%;
+}
+
+input{
+    width: auto;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#fonction {
+    ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    li{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        &:before{
+            opacity: 0%;
+        }
+    }
+}
+
+#Reserve .title{
+
+    margin-top: 30px;
+
+}
+
+.myButton {
+    margin-block: 5%;
+}
+
+#Restaurant{
+    width: 50%;
+    margin-left: 25%;
+    padding: 5% 0px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    .title{
+        font-size: xx-large;
+    }
+}
+
+.rest img{
+    height: 250px;
+}
+
+}
+
+@media all and (min-width: 768px) {
+
+    .title{
+        padding-top: 0px;
+    }
+
+}

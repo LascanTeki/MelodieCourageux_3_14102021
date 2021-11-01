@@ -1,0 +1,24 @@
+@keyframes load {
+    0% {
+        opacity: 100%;
+    }
+    30% {
+        opacity: 0%;
+    }
+    100%{
+       transform: scale(0);
+    }
+}
+
+.load {
+    color:  rgb(170, 94, 219);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1800%;
+    position: fixed;
+    z-index: 3;
+    animation-name: load;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}
