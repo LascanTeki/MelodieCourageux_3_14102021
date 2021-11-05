@@ -240,6 +240,20 @@ input {
 .rest i {
   margin: 5%;
   font-size: xx-large;
+  display: inline;
+}
+
+.green {
+  background-color: #99e2d0;
+  color: #008766;
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 5%;
+  font-weight: bold;
+  padding: 3px;
+  padding-inline: 15px;
+  font-size: smaller;
+  border-radius: 2px;
 }
 
 .flex {
@@ -262,6 +276,11 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 5%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
 }
 
 footer p {

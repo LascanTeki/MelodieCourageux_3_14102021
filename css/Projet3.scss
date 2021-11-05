@@ -186,7 +186,21 @@ input {
     i {
         margin: 5%;
         font-size: xx-large;
+        display: inline;
     }
+}
+
+.green{
+    background-color: rgb(153, 226, 208);
+    color: rgb(0, 135, 102);
+    position:absolute;
+    margin-left: 70%;
+    margin-top: 5%;
+    font-weight: bold;
+    padding: 3px;
+    padding-inline: 15px;
+    font-size: smaller;
+    border-radius: 2px;
 }
 
 .flex {
@@ -194,12 +208,16 @@ input {
     justify-content: space-between;
 }
 
-footer {
+footer{
     color: white;
     background-color: rgb(53, 53, 53);
     display: flex;
     flex-direction: column;
     padding: 5%;
+    a{
+        color: white;
+        text-decoration: none;
+    }
     p {
         margin: 0px;
         margin-bottom: 5px;
