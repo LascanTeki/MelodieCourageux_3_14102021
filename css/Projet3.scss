@@ -10,14 +10,13 @@ body {
     padding-top: 10%;
 }
 
-
 #fonction li:before {
     font-weight: normal;
     content: counter(li);
     counter-increment: li;
     height: 20px;
     width: 20px;
-    background-color: #9356DC;
+    background-color: #9356dc;
     color: white;
     border-radius: 50%;
     text-align: center;
@@ -128,7 +127,7 @@ input {
     background-color: rgb(246, 246, 246);
     width: 100%;
     position: relative;
-    padding: 10% 0px ;
+    padding: 10% 0px;
     .far {
         left: 75%;
         margin-top: 22px;
@@ -190,10 +189,10 @@ input {
     }
 }
 
-.green{
+.green {
     background-color: rgb(153, 226, 208);
     color: rgb(0, 135, 102);
-    position:absolute;
+    position: absolute;
     margin-left: 70%;
     margin-top: 5%;
     font-weight: bold;
@@ -208,13 +207,13 @@ input {
     justify-content: space-between;
 }
 
-footer{
+footer {
     color: white;
     background-color: rgb(53, 53, 53);
     display: flex;
     flex-direction: column;
     padding: 5%;
-    a{
+    a {
         color: white;
         text-decoration: none;
     }

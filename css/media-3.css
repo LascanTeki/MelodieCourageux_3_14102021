@@ -1,0 +1,67 @@
+@media all and (min-width: 992px) {
+  header img {
+    width: 30%;
+  }
+  input {
+    width: auto;
+  }
+  .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30px;
+  }
+  #fonction ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #fonction li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+  }
+  #fonction li:before {
+    opacity: 0%;
+  }
+  #Reserve .title {
+    margin-top: 30px;
+  }
+  .myButton {
+    margin-block: 5%;
+  }
+  #Restaurant {
+    width: 50%;
+    margin-left: 25%;
+    padding: 5% 0px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+  }
+  #Restaurant .title {
+    font-size: xx-large;
+  }
+  .rest img {
+    height: 250px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .title {
+    padding-top: 0px;
+  }
+}
+/*# sourceMappingURL=media-3.css.map */
