@@ -45,6 +45,7 @@ header {
     .logo {
         font-size: x-large;
         margin-top: 20px;
+        font-weight: normal;
     }
 }
 
@@ -103,7 +104,7 @@ header {
 
 /* Articles du menu viennent du bas un après l'autre */
 
-@for $i from 4 through 7 {
+@for $i from 3 through 6 {
     .prop:nth-of-type(#{$i}) {
         animation-name: slideInLeft;
         animation-duration: 500ms;
@@ -113,7 +114,7 @@ header {
     }
 }
 
-@for $i from 9 through 12 {
+@for $i from 8 through 11 {
     .prop:nth-of-type(#{$i}) {
         animation-name: slideInLeft;
         animation-duration: 500ms;
@@ -121,7 +122,7 @@ header {
         animation-fill-mode: backwards;
     }
 }
-@for $i from 14 through 17 {
+@for $i from 13 through 16 {
     .prop:nth-of-type(#{$i}) {
         animation-name: slideInLeft;
         animation-duration: 500ms;

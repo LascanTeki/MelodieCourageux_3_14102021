@@ -370,6 +370,7 @@ header a {
 #menu .logo {
   font-size: x-large;
   margin-top: 20px;
+  font-weight: normal;
 }
 
 .logo {
@@ -446,6 +447,17 @@ header a {
 }
 
 /* Articles du menu viennent du bas un après l'autre */
+.prop:nth-of-type(3) {
+  -webkit-animation-name: slideInLeft;
+          animation-name: slideInLeft;
+  -webkit-animation-duration: 500ms;
+          animation-duration: 500ms;
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
 .prop:nth-of-type(4) {
   -webkit-animation-name: slideInLeft;
           animation-name: slideInLeft;
@@ -479,13 +491,13 @@ header a {
           animation-fill-mode: backwards;
 }
 
-.prop:nth-of-type(7) {
+.prop:nth-of-type(8) {
   -webkit-animation-name: slideInLeft;
           animation-name: slideInLeft;
   -webkit-animation-duration: 500ms;
           animation-duration: 500ms;
-  -webkit-animation-delay: 1400ms;
-          animation-delay: 1400ms;
+  -webkit-animation-delay: 1600ms;
+          animation-delay: 1600ms;
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
@@ -523,13 +535,13 @@ header a {
           animation-fill-mode: backwards;
 }
 
-.prop:nth-of-type(12) {
+.prop:nth-of-type(13) {
   -webkit-animation-name: slideInLeft;
           animation-name: slideInLeft;
   -webkit-animation-duration: 500ms;
           animation-duration: 500ms;
-  -webkit-animation-delay: 2400ms;
-          animation-delay: 2400ms;
+  -webkit-animation-delay: 2600ms;
+          animation-delay: 2600ms;
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
@@ -563,17 +575,6 @@ header a {
           animation-duration: 500ms;
   -webkit-animation-delay: 3200ms;
           animation-delay: 3200ms;
-  -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
-}
-
-.prop:nth-of-type(17) {
-  -webkit-animation-name: slideInLeft;
-          animation-name: slideInLeft;
-  -webkit-animation-duration: 500ms;
-          animation-duration: 500ms;
-  -webkit-animation-delay: 3400ms;
-          animation-delay: 3400ms;
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
 }
