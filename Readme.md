@@ -1,7 +1,7 @@
  [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com) 
 
-# Booki
-![Booki](https://user.oc-static.com/upload/2022/06/20/16557256333819_FR_1155_P3_Banner-Booki.png)
+# OhMyFood
+![OhMyFood](https://user.oc-static.com/upload/2022/06/22/16559011566667_FR_1117_P4_Banner-Ohmyfood.png)
 
 ## Technologies
 - HTML
@@ -13,7 +13,7 @@
 
 ## Description
 
-Ce projet est une introduction au HTML et CSS demandant d'adapter une maquette en un site web.
+Ce projet est une introduction à Sass et aux animations CSS d'adapter une maquette en un site web ainsi que d'implementer des animations CSS tel qu'un écran de chargement ou le remplissage d'un coeur.
 
 
 ## Licensing
